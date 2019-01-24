@@ -11,7 +11,7 @@ namespace App\Utils\Exception;
  * file that was distributed with this source code.
  */
 
-abstract class Exception_Abstract extends Exception
+abstract class Exception_Abstract extends \Exception
 {
 
 }
