@@ -161,7 +161,7 @@ class SetupTest extends \PhraseanetWebTestCase
             'db_template'       => 'en',
             'create_task'       => array(),
             'elasticsearch_settings' => [
-                'host'          => 'localhost',
+                'host'          => 'elasticsearch',
                 'port'          => '9200',
                 'index'         => 'phrasea_test',
                 'shards'        => 3,
