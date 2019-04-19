@@ -8,10 +8,10 @@ main:
     key: ''
     api_require_ssl: true
     database:
-        host: 127.0.0.1
+        host: db
         port: 3306
         user: root
-        password: ''
+        password: root
         dbname: ab_test
         driver: pdo_mysql
         charset: UTF8
@@ -22,12 +22,12 @@ main:
     cache:
         type: RedisCache
         options:
-            host: localhost
+            host: redis
             port: 6379
     search-engine:
         type: elasticsearch
         options:
-            host: 'localhost'
+            host: elasticsearch
             port: 9200
             index: ''
             shards: 3
